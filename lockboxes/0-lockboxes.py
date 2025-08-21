@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Lockboxes interview task"""
-
+  
 
 def canUnlockAll(boxes):
     """Determines if all boxes can be opened"""
