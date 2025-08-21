@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """Lockboxes interview task"""
 
+
 def canUnlockAll(boxes):
     """Determines if all boxes can be opened"""
-    if not isinstance (boxes, list) or len(boxes) == 0:
+    if not isinstance(boxes, list) or len(boxes) == 0:
         return False
 
     n = len(boxes)
@@ -16,4 +17,4 @@ def canUnlockAll(boxes):
             opened.add(key)
             keys.extend(boxes[key])
 
-    return len(opened) == n        
+    return len(opened) == n 
